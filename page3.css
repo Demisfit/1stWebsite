@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+
+h1 {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #4c3c69;
+  color: #bbbd9d;
+}
+
+.navbar ul {
+  background-color: #bbbd9d;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #4c3c69;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-grow: 3;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #5a5b59;
+}
+
+.websites {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  align-items: center;
+  background-color: aliceblue;
+  margin: 0;
+  height: 355px;
+  background-image: url(images/aswqawqaqqqqq.png);
+  background-attachment: relative;
+  background-position: 60% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.games {
+  background-color: yellowgreen;
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/aqwqwsw.jpg);
+  background-attachment: relative;
+  background-position: 60% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  border-radius: 15px;
+  box-shadow: 15px 20px 5px rgba(94, 83, 2, 0.4);
+}
+
+.stream {
+  background-color: rgb(35, 14, 118);
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/zxsazswssa.jpg);
+  background-attachment: relative;
+  background-position: 60% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  border-radius: 15px;
+  box-shadow: 15px 20px 5px rgba(27, 94, 2, 0.4);
+}
+
+.unordered {
+  backdrop-filter: blur(1px);
+}
+
+.ordered {
+  backdrop-filter: blur(2px);
+}
+
+.unordered li {
+  margin: 20px;
+  color: rgba(226, 219, 219, 0.925);
+}
+
+.ordered li {
+  margin: 20px;
+  color: rgba(238, 3, 3, 0.925);
+  font-weight: 600;
+}
+
+.unordered a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgba(226, 219, 219, 0.925);
+}
+
+.ordered a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgba(238, 3, 3, 0.925);
+  font-weight: 600;
+}
+
+.unordered li::marker {
+  content: "🎮";
+}
+
+.last {
+  background-image: url(images/onetouse.jpg);
+  background-attachment: relative;
+  background-position: 40% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 10px;
+  height: 255px;
+}
